@@ -60,16 +60,4 @@ python main.py
 - **Z, Q, S, D**: Move the player's ship.
 - **Space**: Shoot lasers.
 
-## Contribution
-
-Contributions are welcome! If you wish to contribute, please fork the repository, make your changes, and submit a pull request.
-
-## Acknowledgments
-
-Special thanks to the Python and Pygame communities for providing excellent resources for beginners and experts alike.
-
----
-
-For any questions or suggestions, feel free to open an issue or contact me directly.
-
 **Enjoy the game!**
