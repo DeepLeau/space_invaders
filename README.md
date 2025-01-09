@@ -1,8 +1,8 @@
 ![Space Invaders PyGames 2D](https://github.com/DeepLeau/space_invaders/blob/main/assets/space_invaders.png)
 
-# Space Shooter ECS
+# Space Invaders ECS
 
-Welcome to the **Space Shooter ECS** project! This is a 2D space shooter game built using the **Entity-Component-System (ECS)** architecture in Python with Pygame. The game showcases a modular design approach, inspired by ECS principles, ensuring better separation of concerns and easier scalability.
+Welcome to the **Space Invaders ECS** project! This is a 2D space shooter game built using the **Entity-Component-System (ECS)** architecture in Python with Pygame. The game showcases a modular design approach, inspired by ECS principles, ensuring better separation of concerns and easier scalability.
 
 ## Features
 
@@ -21,7 +21,7 @@ Welcome to the **Space Shooter ECS** project! This is a 2D space shooter game bu
 
 ## Future Aspirations
 
-This 2D version of Space Shooter ECS is a precursor to a **3D Space Shooter project** developed in Unity using **Unity DOTS (Data-Oriented Technology Stack)**. While the 3D version is currently non-functional, it demonstrates the ambition to bring the ECS paradigm into a 3D environment.
+This 2D version of Space Invaders is a precursor to a [**3D Space Invaders project**](https://github.com/DeepLeau/space_invaders_unity/tree/main) developed in Unity using **Unity DOTS (Data-Oriented Technology Stack)**. While the 3D version is currently non-functional, it demonstrates the ambition to bring the ECS paradigm into a 3D environment.
 
 ## Getting Started
 
