@@ -10,7 +10,7 @@ Welcome to the **Space Shooter ECS** project! This is a 2D space shooter game bu
   - Systems like `RenderSystem`, `MovementSystem`, `CollisionSystem`, and `WaveSystem` handle logic and interactions.
 
 - **Gameplay Mechanics**:
-  - Navigate the player's ship using keyboard controls (W, A, S, D, Space).
+  - Navigate the player's ship using keyboard controls (Z, Q, S, D, Space).
   - Shoot lasers to destroy incoming enemies.
   - Health bars for the player and enemies.
   - Progressive difficulty with increasing waves of enemies.
@@ -20,7 +20,7 @@ Welcome to the **Space Shooter ECS** project! This is a 2D space shooter game bu
 
 ## Future Aspirations
 
-This 2D version of Space Shooter ECS is a precursor to a **3D Space Shooter project** developed in Unity using **Unity DOTS (Data-Oriented Technology Stack)**. While the 3D version is currently non-functional, it demonstrates the ambition to bring the ECS paradigm into a 3D environment. The Unity DOTS version aims to leverage high performance and scalability for modern game development.
+This 2D version of Space Shooter ECS is a precursor to a **3D Space Shooter project** developed in Unity using **Unity DOTS (Data-Oriented Technology Stack)**. While the 3D version is currently non-functional, it demonstrates the ambition to bring the ECS paradigm into a 3D environment.
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ python main.py
 
 ## Controls
 
-- **W, A, S, D**: Move the player's ship.
+- **Z, Q, S, D**: Move the player's ship.
 - **Space**: Shoot lasers.
 
 ## Contribution
