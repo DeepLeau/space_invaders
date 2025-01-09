@@ -143,13 +143,13 @@ class MovementSystem:
             transform = player.get_component(Transform)
             renderable = player.get_component(Renderable)
             
-            if keys[pygame.K_q] and transform.x - 5 > 0:  # gauche
+            if keys[pygame.K_q] and transform.x - 5 > 0:  
                 transform.x -= 5
-            if keys[pygame.K_d] and transform.x + 5 + renderable.image.get_width() < WIDTH:  # droite
+            if keys[pygame.K_d] and transform.x + 5 + renderable.image.get_width() < WIDTH:  
                 transform.x += 5
-            if keys[pygame.K_z] and transform.y - 5 > 0:  # haut
+            if keys[pygame.K_z] and transform.y - 5 > 0:  
                 transform.y -= 5
-            if keys[pygame.K_s] and transform.y + 5 + renderable.image.get_height() < HEIGHT:  # bas
+            if keys[pygame.K_s] and transform.y + 5 + renderable.image.get_height() < HEIGHT:  
                 transform.y += 5
             if keys[pygame.K_SPACE]:
                 shooter = player.get_component(Shooter)
@@ -230,8 +230,8 @@ class CollisionSystem:
                         offset_y = int(enemy_transform.y - laser_transform.y)
 
                         if laser_renderable.mask.overlap(enemy_renderable.mask, (offset_x, offset_y)):
-                            world.entities.remove(enemy)  # Supprime l'ennemi
-                            world.entities.remove(entity)  # Supprime le laser
+                            world.entities.remove(enemy)  
+                            world.entities.remove(entity)  
                             break
 
 class CooldownSystem:
